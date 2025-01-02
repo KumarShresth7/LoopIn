@@ -8,6 +8,8 @@
   box-sizing: border-box;
 }
 
+
+
 /* ======== stream css overrides ======== */
 .str-video__call-stats {
   max-width: 500px;
@@ -77,6 +79,12 @@
 .cl-userButtonPopoverActionButton {
   color: white;
 }
+
+.clerk-logo {
+  width: auto; /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 /* =============================== */
 

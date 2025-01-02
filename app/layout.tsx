@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/Skymeet.png",
           },
           variables: {
             colorText: "#fff",
@@ -36,6 +36,9 @@ export default function RootLayout({
             colorInputBackground: "#252A41",
             colorInputText: "#fff",
           },
+          elements:{
+            logoBox:"clerk-logo"
+          }
         }}
       >
         <body className={`${inter.className} bg-dark-2`}>
